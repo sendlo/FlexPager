@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex Pager - Demo</title>
+	<meta name="Author" content="Mike Sendlakowski">
+	<link href="../src/flexpager.css" type="text/css" rel="stylesheet">
+<style type="text/css">
+.subt {font-size: 11px;color:#999}	
+h3 {margin-top:40px;}
+.box {
+	width: 300px;
+	height: 75px;
+}
+.box li {
+	width: 75px;
+	height: 75px;
+	margin-right: 15px;
+	background-color: #CCC;
+	font-size: 14px;
+	font-weight: bold;
+}
+</style>
+
+
+</head>
+<body>
+  
+
+
+<h1>FlexPager Demo<div class="subt">https://github.com/sendlo/FlexPager</div></h1>
+
+<h3>Simple</h3>
+
+<div class="box flxPgr">
+
+	<ul class="flxPgrUl">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li>10</li>
+		<li>11</li>
+		<li>12</li>
+		<li>13</li>
+	</ul>
+
+</div>
+
+<h3>Irregular sizes</h3>
+
+<div class="box flxPgr">
+
+	<ul class="flxPgrUl">
+		<li>1</li>
+		<li style="width: 20px">2</li>
+		<li style="width: 150px">3</li>
+		<li style="width: 200px">4</li>
+		<li style="width: 20px">5</li>
+		<li>6</li>
+		<li style="width: 150px">7</li>
+		<li>8</li>
+		<li style="width: 200px">9</li>
+		<li>10</li>
+		<li style="width: 200px">11</li>
+		<li style="width: 20px">12</li>
+		<li>13</li>
+	</ul>
+
+</div>
+
+<h3>Update with callbacks: <a href="javascript:updateFP();">Add callbacks</a></h3>
+
+<div class="box callback flxPgr">
+
+	<ul class="flxPgrUl">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li>10</li>
+		<li>11</li>
+		<li>12</li>
+		<li>13</li>
+	</ul>
+
+</div>
+
+<div id="callbacktext"></div>
+
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="../src/flexpager.js" type="text/javascript"></script>
+<script>
+$(".box").flexpager();
+
+function updateFP(){
+	$(".callback").flexpager({
+		setPagesCB: function(){$("#callbacktext").append("<div>Pages have been recalculated and callback triggered.</div><div>Pagination is now in German, too.</div>");},
+		movedCB: function(){$("#callbacktext").append("<div>Pagination has been triggered.</div>");},
+		pgTxt: {p:"Vorherige Seite",n:"Nächste Seite",pg:"Seite {}"}
+	});
+}
+</script>
+
+</body>
+</html>
