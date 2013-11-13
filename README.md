@@ -2,6 +2,9 @@
 
 An accessible jQuery plugin to create a horizontal list carousel with pagination that reconfigures to handle irregular sized elements and any container size.
 
+<img src="demo/demo1.png"/>
+
+
 ##Installation
 
 Include the [flexpager.js](https://github.com/sendlo/FlexPager/src/flexpager.js) and [flexpager.css](https://github.com/sendlo/FlexPager/src/flexpager.css) files in your project.
