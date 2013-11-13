@@ -4,18 +4,18 @@ An accessible jQuery plugin to create a horizontal list carousel with pagination
 
 ##Installation
 
-Include the [flexpager.js](https://github.com/sendlo/FlexPager/src/flexpager.js) and flexpager.css(https://github.com/sendlo/FlexPager/src/flexpager.css) files in your project.
+Include the [flexpager.js](https://github.com/sendlo/FlexPager/src/flexpager.js) and [flexpager.css](https://github.com/sendlo/FlexPager/src/flexpager.css) files in your project.
 
 ##Usage
 1. Create the following html structure on your page. Add any list items you want in the carousel.
 
-    <div class="flxPgr"><ul class="flxPgrUl"> {your list items here} </ul></div>
+		<div class="flxPgr"><ul class="flxPgrUl"> {your list items here} </ul></div>
 
 2. Set a height to the flxPgr container and the list items.
 
 3. Call the plugin:
 
-    $(".flxPgr").flexpager();
+		$(".flxPgr").flexpager();
 
 ##Options
 
