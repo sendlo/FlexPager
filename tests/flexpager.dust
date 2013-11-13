@@ -1,0 +1,9 @@
+<div class="flxPgr">
+	<ul class="flxPgrUl">
+		{#items}
+			<li class="ttgTg"><div><a href="javascript:;" class="ttgTg">{tagA}<i></i></a></div><div><a href="javascript:;" class="ttgTg">{tagB}<i></i></a></div></li>
+		{/items}
+	</ul>
+	<div class="fd"></div>
+</div>
+	

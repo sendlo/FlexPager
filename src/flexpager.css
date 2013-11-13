@@ -1,0 +1,66 @@
+.flxPgr {
+	position: relative;
+	overflow: hidden;
+	padding: 0 0 26px;
+}
+
+.flxPgr .flxPgrUl {
+	width: 20000px;
+	position: absolute;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.flxPgr li {
+	float:left;
+}
+
+.flxPgr .fpCtrls{
+	position: absolute;
+	bottom: 0;
+	text-align:center;
+	width:100%;
+	white-space:nowrap;
+}
+
+.flxPgr .fpCtrls a {
+	display: inline-block;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAvCAYAAADjNOpjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAAEFUlEQVRIS7WV7U/TVxTHf3+YIr5wxiwmzMQXc3u16PZCMlHj04xE48AXM2NzyzZjpnYbM9NN0fHQAitZS0vLU5iJxIRglmGGIKQTpLYUOLuf23t/8GtvCUn1JCe/e78P5577QPFE5LWmE6wmnWA16QSrSSdYTTrBatIJVpNOsJp0gtWkM3K5nPT29kooFJLx8XFZW1vTyRgMDo2Rbx7Ly8syMDAgHR0dEo1GpbOzUxYXF3UyBoNDg9bY3IEgmUxKV1eXDA0NyfDwsCQSCclmszoZg8GhQVuxKEQqldLCwcFB3zgzM+MbGNuF0KDFU1Z0ZWVFb2FjZ3ynp6fLVgfbqMGDlxpawGB0dFSfj+2MdBWzAWd1ePBSQxflsEu3OTU1VbGYDTS2U7t9auknAmBJ2mfOJRhvWcChQWubYO4/pfn5eZ8gu7u7JR6PO98aGBwaq8dLDSMpxtzcnIyMjPiiSCQisVgsUJQxGJzV4cFrJMGAYDXbbTgclnQ6LYVCQSdjMDirq1jMxuzsbKAo3di/FNuZ5dEa2+bBA8bAox0bG5N8Pq+TMRjcxge/pVhYWNAdlJ4hGJyBthYvFrNy5PPfZHfDd5J4OOmbGYPBoTHw5vHyVV7Of98j2z/+QWqO3ZK6s62+kTEYHBq0hnIHN9kUiirDT1J75r7Unm6TA80PfBNjMDg0aPEYOhiFlVX56k6/bFOra5PK/Zci8ujv9WfBGMzyaPHgNZL1uNqWkhpb7GSb7LvYJWOT5c8CDA4NWjx4DV2M1siw2kJIak/dkx2n2mTvhQ5JPf7XvRUVcGjQ4sFLDUN73s6jFLurzwbR7fhExWI20OiCnLXyUsNQnnf2ery4VQqeuCsftfwus5nKbw0ODVp7edQwNO8uJ8evqaIn72lBTcMtqW95IM8z6vetJMDg0OhiyoOXGkZSjOcvlqT+25jsoOhp9SyOtMqJb9R/vKVXvpAxGBwatHjwGkkwnmVeysErUb9oTcPP8snVsC9mDGaLocVjaHc8efafvH+5p1iUWz/6o29grDHFoUFrqM1j4mlGPmj5Q/Y0tssvfY99E2MwODQG3lpk1CE/nSu/FDA4M3VHvrAqX7dPyL7mpLzVGNPfO/1Tsrq65huXsjm5GR6Xw1/8Ke819+hv+8Ck5NTvpJEUA1NdU0L2nI/LrnOxQL7TlBQWw/Th5T45dz0t/6hzY8733YvdGmcxU87z6Gy36qq0GMkit1WndFZ/JebcZuONtOr0yTrH9lzFbMKzPToylkCAw5up53FmrkI24TmzsrMyAQ5vpm+gQ87QdSE24TlDLsRYAsHFwJtp8cnUfZooK/T2hX59+7wCbvHQZ336VunI3vKXv/6lb7nsODCVvkPmLGYk+qxK3yHzwJN5/eF5/wP3+qIhGISzTgAAAABJRU5ErkJggg==) no-repeat scroll 0 0 transparent;
+}
+
+.flxPgr .fpCtrls a.flxP {
+	height: 14px;
+	width: 10px;
+	background-position: 0 -23px;
+	margin-right: 7px;
+}
+
+.flxPgr .fpCtrls a.flxN {
+	height: 14px;
+	width: 10px;
+	background-position: -10px -23px;
+	margin-left: 7px;
+}
+
+.flxPgr .fpCtrls a.flxD {
+	height: 9px;
+	width: 9px;	
+	margin: 2px 4px;
+	background-position: -9px -37px;
+}
+.flxPgr .fpCtrls a.flxAlt {
+	cursor: default;	
+}
+.flxPgr .fpCtrls a.flxP.flxAlt {
+	background-position: 0 -9px;
+}
+
+.flxPgr .fpCtrls a.flxN.flxAlt {
+	background-position: -10px -9px;
+}
+
+.flxPgr .fpCtrls a.flxD.flxAlt {
+	background-position: 0px -37px;
+}
+
